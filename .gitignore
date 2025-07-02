@@ -1,0 +1,81 @@
+##############################################
+# → Compilados padrão do .NET/C# (bin, obj)
+##############################################
+bin/
+obj/
+out/
+
+##############################################
+# → Arquivos de build intermediários
+##############################################
+*.dll
+*.exe
+*.pdb
+*.cache
+*.dbmdl
+*.log
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+##############################################
+# → VS Code / Visual Studio / Rider configs
+##############################################
+.vscode/
+.idea/
+*.code-workspace
+
+##############################################
+# → Arquivos de publicação / pacote
+##############################################
+*.publish/
+*.deploy/
+.publishsettings
+
+##############################################
+# → SQL Server LocalDB / Dados locais
+##############################################
+*.mdf
+*.ldf
+*.ndf
+*.bak
+
+# Banco local em pasta App_Data (caso use)
+App_Data/
+
+##############################################
+# → Configs de sistema ou pessoais
+##############################################
+*.DS_Store
+Thumbs.db
+desktop.ini
+
+##############################################
+# → Dotnet secrets / certs locais
+##############################################
+secrets.json
+*.pfx
+*.key
+*.cer
+
+##############################################
+# → Testes, cobertura e relatórios
+##############################################
+TestResults/
+coverage/
+*.coverage
+*.coveragexml
+
+##############################################
+# → Logs
+##############################################
+*.log
+logs/
+
+##############################################
+# → Auto-gerado por IDEs
+##############################################
+_ReSharper*/
+*.ncrunch*
+*.vs/
